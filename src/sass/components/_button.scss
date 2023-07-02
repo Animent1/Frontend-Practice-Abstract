@@ -1,0 +1,27 @@
+@use "../abstracts/" as a;
+
+button {
+    padding: .30em 1.2em;
+    margin: 0.25em;
+    font-size: 1.5rem;
+    border-color: transparent;
+    color: a.$neutral-100;
+    border-radius: 0.5rem;
+    box-shadow: transparent;
+    align-self: right;
+
+    &[data-invert="true"] {
+        background-color: a.$neutral-900;
+        border: 1px solid a.$neutral-100;
+    }
+
+    &[data-invert="false"] {
+        background-color: a.$primary-700;
+    
+        &:hover {
+            background-color: a.$neutral-100;
+            color: a.$neutral-900;
+            transition: all .5s;
+        }    
+    }
+}

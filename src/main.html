@@ -4,7 +4,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <link rel="stylesheet" href="css/style.css">
 
         <title>Abstract</title>
     </head>
@@ -12,10 +14,14 @@
     <body>
         <main>
             <nav>
-                <a href="#">Abstract</a>
-                <a href="#">Help Center</a>
-                <button data-invert="false">Submit a request</button>
-                <button data-invert="true">Sign in</button>
+                <div class="nav__title">
+                    <a href="#"><i class='bx bx-home bx-md bx-fw'></i> Abstract</a>
+                    <a href="#">Help Center</a>
+                </div>
+                <div class="nav__buttons">
+                    <button data-invert="true">Submit a request</button>
+                    <button data-invert="false">Sign in</button>
+                </div>
             </nav>
 
             <section class="search">

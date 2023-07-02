@@ -1,0 +1,22 @@
+@use '../abstracts' as a;
+
+nav {
+    background-color: a.$neutral-900;
+    padding: 1rem 4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+        color: a.$neutral-100;
+        text-decoration: transparent;
+        font-weight: a.$fw-600;
+        font-size: a.$fs-400;
+        text-align: center;
+        padding: 0.5rem 1rem;
+
+        &:first-child{
+            border-right: 2px solid a.$neutral-100;
+        }
+    }
+}
