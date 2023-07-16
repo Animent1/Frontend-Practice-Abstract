@@ -2,7 +2,7 @@
 
 nav {
     background-color: a.$neutral-900;
-    padding: 1rem 4em;
+    padding: 0.8rem 3.8rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,13 +10,24 @@ nav {
     a {
         color: a.$neutral-100;
         text-decoration: transparent;
-        font-weight: a.$fw-600;
+        font-weight: a.$fw-500;
         font-size: a.$fs-400;
         text-align: center;
-        padding: 0.5rem 1rem;
-
-        &:first-child{
-            border-right: 2px solid a.$neutral-100;
-        }
+        padding: 0.2rem 0.6rem;
+        transition: all 500ms;
     }
+}
+
+.title {
+    border-right: 2px solid a.$neutral-100;
+    font-weight: a.$fw-600;
+    padding-inline: 0.8rem;
+
+    &:hover {
+        color: a.$neutral-200;
+    }
+}
+
+.help-center:hover {
+    text-decoration: underline;
 }

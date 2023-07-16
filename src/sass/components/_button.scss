@@ -21,7 +21,7 @@ button {
         &:hover {
             background-color: a.$neutral-100;
             color: a.$neutral-900;
-            transition: all .5s;
+            transition: all 500ms;
         }    
     }
 }
