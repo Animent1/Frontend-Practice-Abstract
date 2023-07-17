@@ -1,10 +1,19 @@
+@use '../abstracts' as a;
+
 input[type=search] {
+    outline: transparent;
     background-image: url('../img/bx-right-arrow-alt.svg');
     background-position: right 0.5rem center;
     background-repeat: no-repeat;
     background-size: 1.875rem 1.875rem;
     width: 40%;
     padding: 1rem 2.5rem 1rem 1rem;
+    border: 1px solid a.$neutral-900;
+    border-radius: 4px;
+    box-shadow: 0px 12px 32px 0px rgba(0,0,0,0.1);
 
-    
+    &:focus {
+        border: 1px solid a.$primary-700;
+        background-image: url('../img/right-arrow-alt-regular-100.png');
+    }
 }
