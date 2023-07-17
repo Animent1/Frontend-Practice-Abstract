@@ -1,3 +1,11 @@
+@use '../abstracts' as a;
+
 body {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-weight: a.$fw-500;
+    font-size: a.$fs-600;
+    padding-bottom: 1rem;
 }

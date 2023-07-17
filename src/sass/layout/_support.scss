@@ -1,0 +1,7 @@
+@use '../abstracts' as a;
+
+.search {
+    background-color: a.$primary-400;
+    text-align: center;
+    padding-block: 5rem 7.1875rem;
+}
