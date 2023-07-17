@@ -80,6 +80,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+  font-weight: 500;
+  font-size: 4.2rem;
+  padding-bottom: 1rem;
+}
+
 nav {
   background-color: hsl(0, 0%, 0%);
   padding: 0.8rem 3.8rem;
@@ -132,4 +138,19 @@ button[data-invert=false]:hover {
   background-color: hsl(0, 0%, 100%);
   color: hsl(0, 0%, 0%);
   transition: all 500ms;
+}
+
+input[type=search] {
+  background-image: url("../img/bx-right-arrow-alt.svg");
+  background-position: right 0.5rem center;
+  background-repeat: no-repeat;
+  background-size: 1.875rem 1.875rem;
+  width: 40%;
+  padding: 1rem 2.5rem 1rem 1rem;
+}
+
+.search {
+  background-color: hsl(237, 45%, 90%);
+  text-align: center;
+  padding-block: 5rem 7.1875rem;
 }
