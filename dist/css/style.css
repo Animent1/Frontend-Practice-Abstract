@@ -142,7 +142,7 @@ button[data-invert=false]:hover {
 
 input[type=search] {
   outline: transparent;
-  background-image: url("../img/bx-right-arrow-alt.svg");
+  background-image: url("../assets/img/bx-right-arrow-alt.svg");
   background-position: right 0.5rem center;
   background-repeat: no-repeat;
   background-size: 1.875rem 1.875rem;
@@ -154,7 +154,7 @@ input[type=search] {
 }
 input[type=search]:focus {
   border: 1px solid hsl(232, 62%, 57%);
-  background-image: url("../img/right-arrow-alt-regular-100.png");
+  background-image: url("../assets/img/right-arrow-alt-regular-100.png");
 }
 
 .search {
