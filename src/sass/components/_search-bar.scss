@@ -2,7 +2,7 @@
 
 input[type=search] {
     outline: transparent;
-    background-image: url('../img/bx-right-arrow-alt.svg');
+    background-image: url('../assets/img/bx-right-arrow-alt.svg');
     background-position: right 0.5rem center;
     background-repeat: no-repeat;
     background-size: 1.875rem 1.875rem;
@@ -14,6 +14,6 @@ input[type=search] {
 
     &:focus {
         border: 1px solid a.$primary-700;
-        background-image: url('../img/right-arrow-alt-regular-100.png');
+        background-image: url('../assets/img/right-arrow-alt-regular-100.png');
     }
 }
