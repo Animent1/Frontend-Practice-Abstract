@@ -14,7 +14,7 @@
 }
 
 article {
-    margin: 3rem;
+    margin-inline-end: 2rem;
     display: grid;
     grid-template-columns: 0.3fr 1fr;
 
@@ -28,4 +28,3 @@ article {
         grid-row: 3 / 4;
     }
 }
-

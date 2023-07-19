@@ -9,3 +9,18 @@ h1 {
     font-size: a.$fs-600;
     padding-bottom: 1rem;
 }
+
+p {
+    font-size: a.$fs-400;
+    padding-block: 0.7rem;
+}
+
+a {
+    text-decoration: transparent;
+    font-size: a.$fs-300;
+    color: a.$primary-700;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
